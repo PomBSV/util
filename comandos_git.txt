@@ -1,0 +1,10 @@
+To see the hash from each commit
+--------------------------------
+git log --all --decorate --oneline --graph
+
+To copy a long command in an alias
+----------------------------------
+alias="git log --all --decorate --oneline --graph"
+
+To
+--
