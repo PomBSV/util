@@ -19,3 +19,6 @@ To delete a branch (do it after having merge with master)
 ---------------------------------------------------
 git branch -d patch1
 
+To merge the last commit in master and the last commit in a branche and not all the content of the project ( be sure with checkout to be in master)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+git merge --squash <name of branch>
