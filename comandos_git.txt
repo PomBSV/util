@@ -6,5 +6,6 @@ To copy a long command in an alias
 ----------------------------------
 alias="git log --all --decorate --oneline --graph"
 
-To
---
+To see how many branchs 
+-----------------------
+git branch
