@@ -2,9 +2,10 @@ To see the hash from each commit
 --------------------------------
 git log --all --decorate --oneline --graph
 
-To copy a long command in an alias
-----------------------------------
-alias="git log --all --decorate --oneline --graph"
+To copy a long command in an alias in Windows
+----------------------------------------------
+alias="git log --all --decorate --oneline --graph"  (linux)
+set "alias=git log --all --decorate --oneline --graph"; %alias%  (windows)
 
 To see how many branchs 
 -----------------------
@@ -17,3 +18,4 @@ git branch --merged
 To delete a branch (do it after having merge with master)
 ---------------------------------------------------
 git branch -d patch1
+
