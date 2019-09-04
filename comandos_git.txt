@@ -9,3 +9,11 @@ alias="git log --all --decorate --oneline --graph"
 To see how many branchs 
 -----------------------
 git branch
+
+To show which branches were merged
+----------------------------------
+git branch --merged
+
+To delete a branch (do it after having merge with master)
+---------------------------------------------------
+git branch -d patch1
